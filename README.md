@@ -1,11 +1,8 @@
 # PPTX Text Extraction API
 
-## Descrição
+An API built with FastAPI to extract text from PowerPoint (.pptx) files.
 
-Esta API recebe arquivos `.pptx`, extrai o texto de cada slide e retorna um JSON com o texto extraído. Ideal para usar em sistemas que precisam processar apresentações.
+## Usage
 
-## Como rodar o projeto
-
-1. Instale as dependências:
-   ```bash
-   pip install -r requirements.txt
+- **Endpoint**: `POST /upload_pptx/`
+- **Action**: Upload a PowerPoint file as `file`.
